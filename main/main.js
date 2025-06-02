@@ -85,7 +85,7 @@ document.getElementById("By").onclick = function() {
 
 async function menuju() {
     await swals.fire('Yay!', 'And here comes another birthday surprise for you!', 'success');
-    window.location = "picrotate.html";
+    window.location = "../picrotate/picrotate.html";
 }
 
 vketik1 = kalimat.innerHTML;
